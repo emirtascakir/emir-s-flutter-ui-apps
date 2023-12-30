@@ -1,4 +1,5 @@
 import 'package:emir_s_shopping_app_ui/constants/constants.dart';
+import 'package:emir_s_shopping_app_ui/views/home/components/body.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -9,6 +10,7 @@ class HomeView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: buildAppBar(),
+      body: const Body(),
     );
   }
 
