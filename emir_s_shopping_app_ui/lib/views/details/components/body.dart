@@ -1,5 +1,9 @@
 import 'package:emir_s_shopping_app_ui/constants/constants.dart';
 import 'package:emir_s_shopping_app_ui/models/product_model.dart';
+import 'package:emir_s_shopping_app_ui/views/details/components/add_to_cart.dart';
+import 'package:emir_s_shopping_app_ui/views/details/components/color_and_size.dart';
+import 'package:emir_s_shopping_app_ui/views/details/components/counter_with_fav_btn.dart';
+import 'package:emir_s_shopping_app_ui/views/details/components/description.dart';
 import 'package:emir_s_shopping_app_ui/views/details/components/product_title_with_image.dart';
 import 'package:flutter/material.dart';
 
@@ -29,28 +33,15 @@ class Body extends StatelessWidget {
                     borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(24),
                         topRight: Radius.circular(24))),
-                child: const Column(
+                child: Column(
                   children: <Widget>[
-                    Row(
-                      children: <Widget>[
-                        Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: <Widget>[
-                            Text("Color"),
-                            Row(
-                              children: [
-                                ColorDot(
-                                  color: Color(0xFF356C95),
-                                  isSelected: true,
-                                ),
-                                ColorDot(color: Color(0xFFF8C078)),
-                                ColorDot(color: Color(0xFFA29B9B)),
-                              ],
-                            ),
-                          ],
-                        )
-                      ],
-                    ),
+                    ColorAndSize(product: product),
+                    const SizedBox(height: kDefaultPadding / 2),
+                    Description(product: product),
+                    const SizedBox(height: kDefaultPadding / 2),
+                    const CounterWithFavBtn(),
+                    const SizedBox(height: kDefaultPadding / 2),
+                    AddToCart(product: product),
                   ],
                 ),
               ),
@@ -58,39 +49,6 @@ class Body extends StatelessWidget {
             ]),
           )
         ],
-      ),
-    );
-  }
-}
-
-class ColorDot extends StatelessWidget {
-  final Color color;
-  final bool isSelected;
-  const ColorDot({
-    super.key,
-    required this.color,
-    this.isSelected = false,
-  });
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.only(
-          top: kDefaultPadding / 4, right: kDefaultPadding / 2),
-      padding: const EdgeInsets.all(2.5),
-      height: 24,
-      width: 24,
-      decoration: BoxDecoration(
-        shape: BoxShape.circle,
-        border: Border.all(
-          color: isSelected ? color : Colors.transparent,
-        ),
-      ),
-      child: DecoratedBox(
-        decoration: BoxDecoration(
-          color: color,
-          shape: BoxShape.circle,
-        ),
       ),
     );
   }
