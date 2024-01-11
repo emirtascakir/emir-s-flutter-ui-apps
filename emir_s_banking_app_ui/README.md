@@ -1,16 +1,4 @@
-# emir_s_banking_app_ui
+### In this project, I coded a banking application screen with flutter.
+![banking-app-ui-home](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/2fd89736-b6d1-4696-b28f-f38e9d6b1469)
+![banking-app-ui-cards](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/f1ee0f0a-d173-480d-9f7b-1a5fb7ce69d3)
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
