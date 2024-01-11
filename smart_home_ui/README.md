@@ -1,16 +1,2 @@
-# smart_home_ui
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### In this project, I coded a smart home application screen with flutter.
+![smart-home-ui](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/10a3510a-0928-44ba-932d-816e4e42863b)
