@@ -1,16 +1,4 @@
-# emir_s_shopping_app_ui
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### In this project, I coded shopping application screens with flutter.
+![shopping-app-home](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/718e7f99-15b4-44a1-b3c2-15f25801735d)
+![shopping-app-bag2](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/d6c3dcf0-58ff-4e9d-b6bd-b9704e0aaca3)
+![shopping-app-bag](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/bebe331c-6e27-4c54-8eca-f90d31ad5990)
