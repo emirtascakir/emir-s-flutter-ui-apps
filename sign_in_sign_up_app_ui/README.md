@@ -1,16 +1,6 @@
-# sign_in_sign_up_app_ui
+### In this project, I coded Sign In & Sign Up screens with flutter.
 
-A new Flutter project.
+![Screenshot_1706581769](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/5b814980-e9aa-4694-9e16-470470283376)
+![Screenshot_1706581795](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/86957107-ae03-40a1-bac4-8cc5c69a61b2)
+![Screenshot_1706581800](https://github.com/emirtascakir/emir-s-flutter-ui-apps/assets/74801643/bbd30f10-57d9-4107-b431-dccd9a15e1dc)
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
