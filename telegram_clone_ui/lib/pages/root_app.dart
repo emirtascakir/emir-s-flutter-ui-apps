@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
+import 'package:telegram_clone_ui/pages/chats_page.dart';
 import 'package:telegram_clone_ui/pages/contact_page.dart';
 import 'package:telegram_clone_ui/utlis/constants/constant_colors.dart';
 
@@ -96,9 +97,7 @@ class _RootAppState extends State<RootApp> {
       index: pageIndex,
       children: const [
         ContactPage(),
-        Center(
-          child: Text("Chats"),
-        ),
+        ChatsPage(),
         Center(
           child: Text("Settings"),
         ),

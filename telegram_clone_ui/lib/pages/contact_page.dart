@@ -60,6 +60,7 @@ class _ContactPageState extends State<ContactPage> {
       child: Column(
         children: [
           Container(
+            height: 68,
             decoration: const BoxDecoration(
               color: ConstantColors.greyColor,
             ),
