@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:line_icons/line_icons.dart';
 import 'package:telegram_clone_ui/dummy_datas/chat.json.dart';
+import 'package:telegram_clone_ui/pages/chat_detail_page.dart';
 import 'package:telegram_clone_ui/utlis/constants/constant_colors.dart';
 
 class ChatsPage extends StatefulWidget {
@@ -107,10 +108,19 @@ class _ChatsPageState extends State<ChatsPage> {
       children: List.generate(
         chat_data.length,
         (index) {
-          return Padding(
-            padding: const EdgeInsets.only(top: 4, left: 12, right: 12),
-            child: GestureDetector(
-              onTap: () {},
+          return GestureDetector(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => ChatDetailPage(
+                      name: chat_data[index]['name'],
+                      img: chat_data[index]['img']),
+                ),
+              );
+            },
+            child: Padding(
+              padding: const EdgeInsets.only(top: 4, left: 12, right: 12),
               child: Row(
                 children: [
                   Container(
