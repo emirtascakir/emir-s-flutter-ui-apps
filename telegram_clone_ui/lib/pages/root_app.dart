@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ionicons/ionicons.dart';
 import 'package:telegram_clone_ui/pages/chats_page.dart';
 import 'package:telegram_clone_ui/pages/contact_page.dart';
+import 'package:telegram_clone_ui/pages/setting_page.dart';
 import 'package:telegram_clone_ui/utlis/constants/constant_colors.dart';
 
 class RootApp extends StatefulWidget {
@@ -98,9 +99,7 @@ class _RootAppState extends State<RootApp> {
       children: const [
         ContactPage(),
         ChatsPage(),
-        Center(
-          child: Text("Settings"),
-        ),
+        SettingPage(),
       ],
     );
   }
